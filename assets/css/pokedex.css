@@ -1,0 +1,292 @@
+/* .normal {
+  background-color: #a6a877;
+}
+
+.grass {
+  background-color: #77c850;
+}
+
+.fire {
+  background-color: #ee7f30;
+}
+
+.water {
+  background-color: #678fee;
+}
+
+.electric {
+  background-color: #f7cf2e;
+}
+
+.ice {
+  background-color: #98d5d7;
+}
+
+.ground {
+  background-color: #dfbf69;
+}
+
+.flying {
+  background-color: #a98ff0;
+}
+
+.poison {
+  background-color: #a040a0;
+}
+
+.fighting {
+  background-color: #bf3029;
+}
+
+.psychic {
+  background-color: #f65687;
+}
+
+.dark {
+  background-color: #725847;
+}
+
+.rock {
+  background-color: #b8a137;
+}
+
+.bug {
+  background-color: #a8b720;
+}
+
+.ghost {
+  background-color: #6e5896;
+}
+
+.steel {
+  background-color: #b9b7cf;
+}
+
+.dragon {
+  background-color: #6f38f6;
+}
+
+.fairy {
+  background-color: #f9aec7;
+} */
+
+.icon-type {
+  width: 40px;
+  height: 40px;
+}
+
+.sts-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.status-bar-box {
+  display: flex;
+  align-items: center;
+  border-radius: 24px;
+  border: 1px solid hsla(0, 0%, 100%, .2);
+  background: rgba(6, 11, 20, .8);
+  backdrop-filter: blur(10px);
+  height: 18px;
+  padding: 2px;
+}
+
+.status-bar-200 {
+  border-radius: 60px;
+  background: #24ff00;
+  box-shadow: 0px 0px 10px 5px #24ff00;
+  height: 100%;
+  transition: 1s cubic-bezier(0.65, -0.02, 0.25, 1.36);
+}
+
+.status-bar-140 {
+  border-radius: 60px;
+  background: #24ff00;
+  box-shadow: 0px 0px 8px 0px #24ff00;
+  height: 100%;
+  transition: 1s cubic-bezier(0.65, -0.02, 0.25, 1.36);
+}
+
+.status-bar-100 {
+  border-radius: 60px;
+  background: #00ff55;
+  height: 100%;
+  transition: 1s cubic-bezier(0.65, -0.02, 0.25, 1.36);
+}
+
+.status-bar-40 {
+  border-radius: 60px;
+  background: #ffae00;
+  height: 100%;
+  transition: 1s cubic-bezier(0.65, -0.02, 0.25, 1.36);
+}
+
+.status-bar-30 {
+  border-radius: 60px;
+  background: #f00;
+  box-shadow: 0px 0px 8px 0px #f00;
+  height: 100%;
+  transition: 1s cubic-bezier(0.65, -0.02, 0.25, 1.36);
+}
+
+i {
+  color: #fff;
+  font-size: 24px;
+}
+
+.pkm-img {
+  filter: saturate(1.9);
+  width: 300px;
+  transition: 0.5s;
+}
+
+.pkm-img:hover {
+  transform: scale(1.10);
+  filter: drop-shadow(10px 7px 10px #000);
+}
+
+.pkm-icon {
+  width: 100px;
+  margin-top: 10px;
+  margin-left: 80%;
+  padding: 10px;
+  border-radius: 100%;
+  border: 3px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hw {
+  color: #fff;
+  font-weight: 700;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.hwm {
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.hw-text {
+  font-size: 1rem;
+  color: #fff;
+  font-weight: 500;
+  gap: 5px;
+}
+
+.pkm-types {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.pkm-infos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+  color: #fff;
+}
+
+as .evolution-method {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-pokemon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 24px;
+  /* border: 1px solid hsla(0, 0%, 100%, .2); */
+  background-size: 50%, auto;
+  background-repeat: no-repeat;
+  width: 550px;
+  color: #fff;
+}
+
+.evolutions,
+.variants {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  background: #9d9d9d7b;
+  border-radius: 10px;
+}
+
+.evolution-details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.evolution,
+.variant {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.evolution img,
+.variant img {
+  width: 110px;
+  transition: 0.5s;
+}
+
+.evolution img:hover,
+.variant img:hover {
+  transform: scale(1.10);
+}
+
+.evolution span,
+.variant span {
+  color: #fff;
+}
+
+.label-search {
+  width: 50%;
+  height: 45px;
+  border-radius: 1rem;
+  border: 1px solid hsla(0, 0%, 100%, .2);
+  background: rgba(6, 11, 21, .8);
+}
+
+#searchPokemon {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1rem;
+  font-style: italic;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+#searchPokemon::placeholder {
+  color: #fff;
+  font-style: italic;
+}
+
+#loadMoreButton {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1rem;
+  border-radius: 1rem;
+  border: 1px solid hsla(0, 0%, 100%, .2);
+  background: rgba(6, 11, 21, .8);
+  padding: 15px;
+}
